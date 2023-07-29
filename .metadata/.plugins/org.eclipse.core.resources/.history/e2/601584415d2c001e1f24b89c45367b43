@@ -1,0 +1,20 @@
+package ArraysProgram;
+
+public class LargestElement_09 {
+
+	public static void main(String[] args) {
+		int[] number = { 3, 9, 5, 15, 2 };
+		int arrayLength = number.length;
+		int largestNumber = 0;
+		for (int i = 0; i < arrayLength; i++) {
+			for (int j = 1; j < arrayLength; j++) {
+				if (number[i] < number[j]) {
+					largestNumber = number[i];
+				}
+
+			}
+		}
+		System.out.println("Lartest Number is array is " + largestNumber);
+	}
+
+}

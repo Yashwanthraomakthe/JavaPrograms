@@ -1,0 +1,21 @@
+package ArraysProgram;
+
+public class DuplicateElements {
+
+	public static void main(String[] args) {
+
+		String[] names = { "Yashwanth", "Rao", "Java", "Rao", "Testing" };
+		int arrayLength = names.length;
+		String[] duplicateNames = null;
+
+		for (int i = 1; i < arrayLength; i++) {
+			
+			if(names[i]==names[i-1]) {
+				duplicateNames[i]=names[i];
+			}
+			System.out.println(duplicateNames[i]);
+		}
+
+	}
+
+}

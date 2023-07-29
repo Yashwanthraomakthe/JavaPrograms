@@ -1,0 +1,12 @@
+package OnlineExamsQuestions;
+
+public class CommandArgs {
+	public static void main(String[] args) {
+		int x;
+        x = argh.length;
+        for (int y = 1; y <= x; y++) 
+        {
+            System.out.print(" " + argh[y]);
+        }
+	}
+}

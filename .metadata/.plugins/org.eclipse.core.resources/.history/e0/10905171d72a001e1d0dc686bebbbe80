@@ -1,0 +1,13 @@
+package NumberPrograms;
+
+public class ReversNumber {
+
+	public static void main(String[] args) {
+		int no = 2345;
+		
+		
+		System.out.println(no%10);
+
+	}
+
+}

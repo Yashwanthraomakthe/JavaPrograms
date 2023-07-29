@@ -1,0 +1,11 @@
+package StringPrograms;
+
+public class NoOfCharacters {
+
+	public static void main(String[] args) {
+		String name ="The best of both worlds";
+		System.out.println("No of characters in String " + name.length());
+
+	}
+
+}

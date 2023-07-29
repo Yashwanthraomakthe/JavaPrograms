@@ -1,0 +1,19 @@
+package NumberPrograms;
+
+public class ReversNumber {
+
+	public static void main(String[] args) {
+		int no = 2345;
+		int revno = 0;
+
+		System.out.println(no % 10);
+
+		while (no / 10 == 0) {
+			revno = no / 10;
+		}
+		
+		System.out.println(revno);
+
+	}
+
+}

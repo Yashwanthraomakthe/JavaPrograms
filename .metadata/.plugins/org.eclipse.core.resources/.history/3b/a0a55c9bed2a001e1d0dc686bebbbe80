@@ -1,0 +1,16 @@
+package ArraysProgram;
+
+public class CopyOnceArrayToAnotherArray {
+
+	public static void main(String[] args) {
+		String[] names = { "Dinky", "Pooja", "Rahul", "Yash" };
+		String[] newarray = new String[names.length];
+		for(int i=0;i<names.length;i++) {
+			newarray[i]=names[i];
+			System.out.println("New array elements are " + newarray[i]);
+		}
+		
+
+	}
+
+}

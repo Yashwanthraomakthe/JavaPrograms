@@ -1,0 +1,12 @@
+package ArraysProgram;
+
+public class RemoveDuplicates {
+
+	public static void main(String[] args) {
+		int[] number = { 3, 9, 5, 15, 5, 9 };
+		int arrayLength = number.length;
+		
+
+	}
+
+}

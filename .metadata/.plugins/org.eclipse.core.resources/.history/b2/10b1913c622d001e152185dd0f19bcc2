@@ -1,0 +1,13 @@
+package Convertions;
+
+public class StringToInt_01 {
+
+	public static void main(String[] args) {
+
+		String name = "Yashwanth";
+		int intName = Integer.parseInt(name);
+		System.out.println("Integer form of name " + intName);
+
+	}
+
+}
