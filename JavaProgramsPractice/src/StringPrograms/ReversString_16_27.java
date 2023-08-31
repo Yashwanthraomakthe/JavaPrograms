@@ -3,10 +3,10 @@ package StringPrograms;
 public class ReversString_16_27 {
 
 	public static void main(String[] args) {
-		String str = "Dream big";
+		String str = "AlignTech To WelCome";
 		int strLength = str.length();
 		String revString = "";
-		for (int i = strLength - 1; i > 0; i--) {
+		for (int i = strLength-1 ; i >= 0; i--) {
 			revString = revString + str.charAt(i);
 
 		}

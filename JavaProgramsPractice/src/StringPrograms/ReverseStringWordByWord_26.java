@@ -3,25 +3,36 @@ package StringPrograms;
 public class ReverseStringWordByWord_26 {
 
 	public static void main(String[] args) {
-		String str = "Dream big or die";
-		int strLength = str.length();
+		programOne();
+		System.out.println("----------------------------");
+		programTwo();
+
+	}
+
+	public static void programOne() {
+		String str = "WelCome to AlignTech";
 
 		String[] strArray = str.split(" ");
 		for (int i = strArray.length - 1; i >= 0; i--) {
-			// System.out.println(strArray[i]);
-			String newstr = strArray[i];
-			String[] newRevArray = new String[newstr.length()];
+			System.out.print(strArray[i]);
+			System.out.print(" ");
+		}
+		System.out.println(" ");
+	}
 
-			for (int j = newstr.length() - 1; j >= 0; j--) {
-				String revnewstr = "";
-				revnewstr = revnewstr + newstr.charAt(j);
-				for (int x = 0; x < newRevArray.length; x++) {
-					System.out.print(newRevArray[x]);
-				}
-			}
-			// System.out.println(newRevArray.toString());
+	public static void programTwo() {
+
+		String str = "AlignTech To WelCome";
+		
+		int strLength = str.length();
+		String revString = "";
+		for (int i = strLength-1; i >= 0; i--) {
+			revString = revString + str.charAt(i);
 
 		}
+		
+		System.out.println("Reversed String is  " + revString);
+
 
 	}
 
