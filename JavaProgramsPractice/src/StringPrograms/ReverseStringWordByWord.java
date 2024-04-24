@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class ReverseStringWordByWord_26 {
+public class ReverseStringWordByWord {
 
 	public static void main(String[] args) {
 		programOne();

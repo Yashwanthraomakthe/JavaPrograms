@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class DuplicateCharaters_17 {
+public class DuplicateCharaters {
 
 	public static void main(String[] args) {
 

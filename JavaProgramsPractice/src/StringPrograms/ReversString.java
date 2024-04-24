@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class ReversString_16_27 {
+public class ReversString {
 
 	public static void main(String[] args) {
 		String str = "AlignTech To WelCome";

@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class PunctuatioCharacters_03 {
+public class PunctuatioCharacters {
 
 	// punctuation marks (!, . , ' , - , " , ? , ; ).
 	public static void main(String[] args) {

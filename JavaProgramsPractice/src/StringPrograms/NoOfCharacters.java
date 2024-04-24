@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class NoOfCharacters_01_02 {
+public class NoOfCharacters {
 
 	public static void main(String[] args) {
 		String name = "The best of both worlds";
@@ -14,6 +14,7 @@ public class NoOfCharacters_01_02 {
 
 		}
 		System.out.println(count);
+		System.out.println(stringLength);
 
 	}
 

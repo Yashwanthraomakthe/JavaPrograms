@@ -3,7 +3,7 @@ package ArraysProgram;
 public class FrequencyOfEachElement_02 {
 
 	public static void main(String[] args) {
-		int [] arr = new int [] {1, 2, 8, 3, 2, 2, 2, 5, 1};  
+		int [] arr = {1, 2, 8, 3, 2, 8, 2, 5, 1};  
         //Array fr will store frequencies of element  
         int [] fr = new int [arr.length];  
         int visited = -1; 

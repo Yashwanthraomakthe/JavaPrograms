@@ -2,7 +2,7 @@ package StringPrograms;
 
 import java.util.Arrays;
 
-public class Anagram_05 {
+public class Anagram {
 	//Two Strings are called the anagram if they contain the same characters.
 
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class palindrome_13 {
+public class palindrome {
 
 	//A string is said to be palindrome if it is the same from both the ends.
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package StringPrograms;
 
-public class TotalNumberOfVowelsAndConsonants_04 {
+public class TotalNumberOfVowelsAndConsonants {
 
 	public static void main(String[] args) {
 		String str1 = "This is a really simple sentence";

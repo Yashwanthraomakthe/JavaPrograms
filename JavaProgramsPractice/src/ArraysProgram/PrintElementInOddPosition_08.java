@@ -1,6 +1,6 @@
 package ArraysProgram;
 
-public class PrintElementInEvenPosition_08 {
+public class PrintElementInOddPosition_08 {
 
 	public static void main(String[] args) {
 		int[] number = { 2, 3, 5, 6, 7 };
