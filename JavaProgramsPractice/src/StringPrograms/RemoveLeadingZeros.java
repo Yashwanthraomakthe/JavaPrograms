@@ -3,7 +3,7 @@ package StringPrograms;
 public class RemoveLeadingZeros {
 
 	public static void wayOneMethod() {
-		String str = "0000002347892341212";
+		String str = "0000002347";
 
 		String newstr = "";
 		int index = 0;
