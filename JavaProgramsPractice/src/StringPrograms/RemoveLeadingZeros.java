@@ -1,13 +1,6 @@
 package StringPrograms;
 
-public class RemoveLeadingZeros {
-
-
-	public static methodOne(){
-
-		//this is the dummy code added to delete
-
-	}
+public class RemoveLeadingZeros {	
 
 	public static void main(String[] args) {
 		String str = "0000002347";
