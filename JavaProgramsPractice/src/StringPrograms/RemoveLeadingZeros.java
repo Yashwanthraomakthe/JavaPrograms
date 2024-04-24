@@ -2,6 +2,13 @@ package StringPrograms;
 
 public class RemoveLeadingZeros {
 
+
+	public static methodOne(){
+
+		//this is the dummy code added to delete
+
+	}
+
 	public static void main(String[] args) {
 		String str = "0000002347";
 		String newstr = "";
